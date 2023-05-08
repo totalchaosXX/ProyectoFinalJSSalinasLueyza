@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+@font-face {
+  font-family: signika;
+  src: url(../assets/fonts/Signika-Medium.ttf); }
+
+header {
+  font-size: 15px;
+  font-family: signika;
+  margin-bottom: 15px; }
+
+h1, h2, h5, p, li {
+  font-family: signika; }
+
+body {
+  background-color: #FFF; }
+
+.carousel-caption p, h5 {
+  color: #F2F2F2; }
+
+.navbar {
+  background-color: #F2F2F2; }
+
+.nav-link {
+  font-family: signika;
+  font-size: 24px; }
+
+.form-control{
+  min-width: 300px;
+}
+
+.nav-item{
+  
+}
+
+.nav-item a:hover {
+  color: rebeccapurple; }
+  
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 5px solid rgba(238, 14, 14, 0.1); }
+
+.card {
+  padding: 20px;
+  box-shadow: 2px 3px 3px 0 rgba(50, 50, 50, 0.29);
+  border-radius: 5px; }
+
+.g1 :hover, .g2 :hover, .g3 :hover, .g4 :hover, .g5 :hover, .g6 :hover {
+  box-shadow: 5px 7px 7px 0 rgba(50, 50, 50, 0.29); }
+
+.card {
+  text-align: justify; }
+  .card :hover {
+    box-shadow: none; }
+
+.card-footer {
+  background-color: #FFF; }
+
+footer {
+  font-family: signika;
+  margin: 10px; }
+
+.grilla {
+  margin-top: 40px;
+  box-shadow: 2px 3px 3px 0 rgba(50, 50, 50, 0.29);
+  border: 1px solid #c1c1c1;
+  border-radius: 5px;
+  padding: 30px;
+  background-color: #FFF; }
+
+.about {
+  margin-top: 100px; }
+
+.about p {
+  text-align: justify; }
+
+.d1 {
+  vertical-align: middle; }
+
+.d-img {
+  width: 100px; }
+
+textarea {
+  resize: none; }
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1); }
+
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; }
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #FFF; }
+
+.sidebar .nav-link.active {
+  color: #007bff; }
+
+
+  .nav_lateral{
+    min-width: 350px;
+    vertical-align: top;
+    padding-top: 100px;
+    padding-left: 20px;
+   
+  }
+
+  .card-img-top{
+    text-align: center;
+    max-width: 300px;
+  }
+
+@media (max-width: 575.98px) {
+  p {
+    text-align: justify; }
+  .box-guitarras {
+    padding-top: 60px; }
+  .carousel {
+    display: none; }
+  .box-img {
+    display: none; }
+  .hidden {
+    display: block; }
+  .img-contact {
+    display: none; } }
+
+@media (max-width: 767.98px) {
+  .img-contact {
+    display: none; } }
+
+@media (max-width: 991.98px) {
+  .hidden {
+    display: none; }
+  .img-contact {
+    display: none; } }
+
+@media (max-width: 1199.98px) {
+  .hidden {
+    display: none; } }
+
+@media (max-width: 1399.98px) {
+  .hidden {
+    display: none; } }
+
+@media (min-width: 575.98px) {
+  .hidden {
+    display: block; } }
+
+@media (min-width: 767.98px) {
+  .hidden {
+    display: block; } }
+
+@media (min-width: 991.98px) {
+  .hidden {
+    display: none; }
+  .img-contact {
+    display: none; } }
+
+@media (min-width: 1199.98px) {
+  .hidden {
+    display: none; }
+  .img-contact {
+    display: block; } }
+
+@media (min-width: 1399.98px) {
+  .hidden {
+    display: none; }
+  .img-contact {
+    display: block; } }
